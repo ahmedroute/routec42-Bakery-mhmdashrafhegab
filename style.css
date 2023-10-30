@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya' ;
+}
+p{
+    font-family: 'Alegreya sans' ;
+
+}
+
+.cover-img{
+ min-height: 100vh;
+    background-image: url(./images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container{
+width: 80%;
+margin: auto;
+padding-top: 20px;
+}
+.navbar-logo{
+    width: 15%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.navbar-logo img{
+    width: 95%;
+}
+
+.navbar-text{
+    width: 80%;
+    display: inline-block;
+    vertical-align: middle;
+ 
+}
+.navbar-text ul{
+    text-align:right;
+    font-size: 18px;
+}
+
+.navbar-text ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+.navbar-text ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 40px;
+    text-transform:capitalize;
+}
+.cover-text{
+  text-align: center;
+  padding-top: 50px;
+}
+.parent{
+    padding-top: 50px;
+}
+.cover-text span{
+    color: #EDECEC;
+    font-size: 22px;
+    line-height: 40px;
+
+}
+.cover-text h1{
+    font-size: 72px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  font-weight: 400;
+}
+.cover-text p{
+    color: #F4F0ED;
+    font-size: 24px; 
+    letter-spacing: 1px;
+    line-height: 44px;
+    font-weight: 400;
+}
+
+.cover-text button{
+    margin-top: 30px;
+    padding: 15px  28px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;    
+    line-height: 25px;
+    margin-bottom: 50px;
+    font-family: 'Alegreya sans' ;
+
+}
+.cover-text .button1{
+    color: #FFF;
+    background-color: #8E7754;
+    margin-right:  10px;
+    border: 2px solid #8E7754;
+    text-transform: capitalize;
+}
+.cover-text .button2{
+    color: #FFFFFF;
+    background-color: inherit;
+    border: 2px solid #fff;
+    text-transform: capitalize;
+
+}
+.border{
+    margin: 50px auto 0px auto;
+    border: 3px solid white;
+    width: 30px;
+    height: 50px;
+    border-radius:30px ;
+}
+.experience{
+     padding: 30px 0px;
+    margin: 50px 0px;
+}
+.experience-wid{
+    width: 88%;
+    margin: auto;
+}
+.product{
+   display: inline-block;
+   vertical-align: middle;
+   width: 48%;
+}
+
+.experience-img img{
+width: 90%;
+
+}
+.experience-caption{
+    
+    width: 48%;
+}
+.experience-caption h2{
+    color: #303030;
+    font-size: 32px;
+    padding-bottom: 40px;
+   line-height: 44px;
+}
+.experience-caption p{
+    color: #686868;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 32px;
+}
+.experience-icons{
+    width: 100%;
+    margin-top: 30px;
+}
+.icons{
+    padding-bottom: 30px;
+}
+.img-icons{
+    width: 10%;
+   display: inline-block;
+   vertical-align: middle;
+  
+}
+.img-icons img{
+    width: 70%;
+    border: 1px solid  #686868;
+    border-radius: 50%;
+}
+.span-icons{
+    width: 68%;
+    display: inline-block;
+    
+}
+.span-icons span{
+    padding-top: 20px;
+    color: #686868;
+}
+.location{
+    width: 88%;
+    margin: auto;
+    padding: 50px 0px ;
+}
+.location-contant{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.location-img{
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.location-img img{
+    width: 100%;
+    float: right;
+}
+.our-location{
+    background-color: #F8F8F8;
+}
+.location-contant h2 span{
+ font-size: 30px;
+}
+.location-contant h2{
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+.location-contant p{
+    line-height: 32px;
+    color: #686868;
+}
+
+.location-contant .p1{
+    padding-bottom: 20px;
+}
+.baking{
+    width: 33.33%;
+    float: right;
+    padding: 50px 20px 0px 20px;
+}
+.all-baking{
+    width: 88%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0px;
+    margin-bottom: 50px ;
+   overflow: auto;
+}
+.baking img{
+    width: 100%;
+}
+.all-baking h3{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.all-baking p{
+    color: #888888;
+}
+
+.all-baking h3 span{
+    font-size: 40px;
+}
+.baking h4{
+  font-size: 22px;
+  padding: 30px 0px;
+  text-transform: capitalize;
+}
+.baking p{
+    font-size: 17px;
+    line-height: 31px;
+}
+
+.contact-img{
+    width: 10%;
+    display: inline-block;
+    padding-bottom: 20px;
+
+}
+.contact-img img{
+    width: 50%;
+    background-color: #8E7754;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.contact-span{
+    width: 68%;
+    display: inline-block;
+}
+.img-map{
+    width: 50%;
+    float: right; 
+}
+
+
+.inf-caption{
+    width: 50%;
+    float: left;
+}
+.information{
+ background-color: #F8F8F8;
+ padding: 50px 0px;
+}
+.map{
+    width: 88%;
+    margin: auto;
+    overflow: auto;
+}
+.inf-caption h2{
+font-size: 32px;
+padding-bottom: 30px;
+}
+.inf-caption p{
+    line-height: 32px;
+    padding-bottom: 20px;
+    color: #686868;
+}
+.inf-caption span{
+    color: #686868;
+     font-size: 17px;
+}
+.icons-inf{
+    padding-top: 30px;
+}
+iframe{
+    width: 100%;
+}
+
+.details{
+    background-color: #403D38;
+}
+.all-details{
+    width: 88%;
+    margin: auto;
+    overflow: auto;
+   padding: 50px 0px;
+}
+.all-details li{
+    list-style: none;
+    font-size: 16px;
+    padding-bottom: 15px;
+    line-height: 32px;
+    border-bottom: 1px solid #535252;
+    width: 90%;
+    color: #969696;
+
+}
+.all-details li a{
+    text-decoration: none;
+    color: #969696;
+
+}
+
+.first-dateils{
+    float: left;
+    width: 25%;
+}
+.more-dateils{
+    float: right;
+    width: 25%;
+}
+.more-dateils h4{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.first-dateils h4{
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.first-dateils .ph{
+   padding-bottom: 20px;
+}
+.first-dateils p{
+   color: #969696;
+   line-height: 30px;
+}
+.final-icons{
+    width: 10%;
+    vertical-align: middle;
+float: left;
+}
+.final-icons img{
+    width: 80%;
+}
+.span-dateils{
+  vertical-align: middle;
+}
+.img-dateils{
+    padding-bottom: 5px;
+    overflow: auto;
+}
+.footer{
+    padding: 50px 0px;
+    background-color: #353330;
+    text-align: center;
+}
+.copyright p{
+    padding: 15px 0px;
+   color: #777777;
+   
+}
+.social-icons{
+    width: 100%;
+    padding-top: 15px;
+}
+.social-icons img{
+    width: 3%;
+    background-color: #535252;
+    border-radius: 50%;
+}
+
+
